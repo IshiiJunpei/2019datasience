@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2018.9.22)  7 JUL 2019 18:31
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2018.9.22)  9 JUL 2019 14:41
  restricted system commands enabled.
 **考古学のための統計講座.tex
 (./考古学のための統計講座.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.113 seconds
+luaotfload | main : initialization completed in 0.125 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/ltjarticle.cls
 Document Class: ltjarticle 2017/01/17 v1.7c-ltj-12 Standard LuaLaTeX-ja class
@@ -1348,7 +1348,7 @@ LaTeX Font Info:    Font shape `TU/ipaexg.ttf(0)/bx/n' will be
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-2-1.pdf, id
-=155, 705.63625pt x 421.575pt>
+=151, 561.09625pt x 493.845pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-2-1.pdf
  Graphic file (type pdf)
 
@@ -1356,11 +1356,11 @@ File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-2-1.pdf
 >
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
 named-chunk-2-1.pdf used on input line 193.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
+(luatex.def)             Requested size: 452.9615pt x 398.67094pt.
 [2<./考古学のための統計講座_files/figure-latex/unnamed-chunk-2-1.pdf>
 ]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-3-1.pdf, id
-=185, 705.63625pt x 415.5525pt>
+=180, 561.09625pt x 415.5525pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-3-1.pdf
  Graphic file (type pdf)
 
@@ -1368,10 +1368,10 @@ File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-3-1.pdf
 >
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
 named-chunk-3-1.pdf used on input line 218.
-(luatex.def)             Requested size: 452.97308pt x 266.75797pt.
+(luatex.def)             Requested size: 452.9615pt x 335.46701pt.
 
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-4-1.pdf, id
-=186, 705.63625pt x 421.575pt>
+=181, 561.09625pt x 277.035pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-4-1.pdf
  Graphic file (type pdf)
 
@@ -1379,296 +1379,276 @@ File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-4-1.pdf
 >
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
 named-chunk-4-1.pdf used on input line 233.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
+(luatex.def)             Requested size: 452.9615pt x 223.64467pt.
 [3<./考古学のための統計講座_files/figure-latex/unnamed-chunk-3-1.pdf>
 ]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-5-1.pdf, id
-=215, 705.63625pt x 421.575pt>
+=211, 272.01625pt x 350.30875pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-5-1.pdf
  Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-5-1.pdf
 >
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-5-1.pdf used on input line 254.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
+named-chunk-5-1.pdf used on input line 248.
+(luatex.def)             Requested size: 272.02803pt x 350.32391pt.
 [4<./考古学のための統計講座_files/figure-latex/unnamed-chunk-4-1.pdf>
 ] [5<./考古学のための統計講座_files/figure-latex/unnamed-chunk-5-1.pd
 f>] [6]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-9-1.pdf, id
-=278, 712.6625pt x 421.575pt>
+=274, 568.1225pt x 349.305pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-9-1.pdf
  Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-9-1.pdf
 >
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-9-1.pdf used on input line 365.
-(luatex.def)             Requested size: 452.97064pt x 267.95445pt.
-
+named-chunk-9-1.pdf used on input line 354.
+(luatex.def)             Requested size: 452.98155pt x 278.51163pt.
+[7<./考古学のための統計講座_files/figure-latex/unnamed-chunk-9-1.pdf>
+]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-10-1.pdf, i
-d=279, 712.6625pt x 424.58624pt>
+d=303, 568.1225pt x 495.8525pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-10-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-10-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-10-1.pdf used on input line 386.
-(luatex.def)             Requested size: 452.97064pt x 269.86841pt.
-[7<./考古学のための統計講座_files/figure-latex/unnamed-chunk-9-1.pdf>
-]
-<考古学のための統計講座_files/figure-latex/unnamed-chunk-11-1.pdf, i
-d=308, 712.6625pt x 421.575pt>
-File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-11-1.pd
-f Graphic file (type pdf)
-
-<use 考古学のための統計講座_files/figure-latex/unnamed-chunk-11-1.pd
-f>
-Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-11-1.pdf used on input line 415.
-(luatex.def)             Requested size: 452.97064pt x 267.95445pt.
+named-chunk-10-1.pdf used on input line 375.
+(luatex.def)             Requested size: 452.98155pt x 395.35847pt.
 [8<./考古学のための統計講座_files/figure-latex/unnamed-chunk-10-1.pdf
->] [9<./考古学のための統計講座_files/figure-latex/unnamed-chunk-11-1.
-pdf>]
-LaTeX Font Info:    Font shape `TU/ipaexg.ttf(0)/bx/n' will be
-(Font)              scaled to size 8.4874pt on input line 447.
-
-<考古学のための統計講座_files/figure-latex/unnamed-chunk-13-1.pdf, i
-d=360, 705.63625pt x 421.575pt>
-File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-13-1.pd
+>]
+<考古学のための統計講座_files/figure-latex/unnamed-chunk-12-1.pdf, i
+d=328, 568.1225pt x 349.305pt>
+File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-12-1.pd
 f Graphic file (type pdf)
 
-<use 考古学のための統計講座_files/figure-latex/unnamed-chunk-13-1.pd
+<use 考古学のための統計講座_files/figure-latex/unnamed-chunk-12-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-13-1.pdf used on input line 472.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
-[10<./考古学のための統計講座_files/figure-latex/unnamed-chunk-13-1.pd
-f>]
+named-chunk-12-1.pdf used on input line 422.
+(luatex.def)             Requested size: 452.98155pt x 278.51163pt.
+[9<./考古学のための統計講座_files/figure-latex/unnamed-chunk-12-1.pdf
+>]
+LaTeX Font Info:    Font shape `TU/ipaexg.ttf(0)/bx/n' will be
+(Font)              scaled to size 8.4874pt on input line 454.
+
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-14-1.pdf, i
-d=383, 705.63625pt x 421.575pt>
+d=357, 290.08376pt x 184.69pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-14-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-14-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-14-1.pdf used on input line 492.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
-[11<./考古学のための統計講座_files/figure-latex/unnamed-chunk-14-1.pd
+named-chunk-14-1.pdf used on input line 466.
+(luatex.def)             Requested size: 290.08304pt x 184.68953pt.
+[10<./考古学のための統計講座_files/figure-latex/unnamed-chunk-14-1.pd
 f>]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-15-1.pdf, i
-d=407, 705.63625pt x 421.575pt>
+d=374, 561.09625pt x 204.765pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-15-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-15-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-15-1.pdf used on input line 520.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
-
+named-chunk-15-1.pdf used on input line 513.
+(luatex.def)             Requested size: 452.9615pt x 165.30257pt.
+[11<./考古学のための統計講座_files/figure-latex/unnamed-chunk-15-1.pd
+f>]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-16-1.pdf, i
-d=408, 712.6625pt x 416.55624pt>
+d=398, 561.09625pt x 204.765pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-16-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-16-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-16-1.pdf used on input line 537.
-(luatex.def)             Requested size: 452.97064pt x 264.76451pt.
-[12<./考古学のための統計講座_files/figure-latex/unnamed-chunk-15-1.pd
-f>]
+named-chunk-16-1.pdf used on input line 533.
+(luatex.def)             Requested size: 452.9615pt x 165.30257pt.
+
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-17-1.pdf, i
-d=431, 705.63625pt x 421.575pt>
+d=399, 561.09625pt x 204.765pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-17-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-17-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-17-1.pdf used on input line 564.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
-[13<./考古学のための統計講座_files/figure-latex/unnamed-chunk-16-1.pd
+named-chunk-17-1.pdf used on input line 561.
+(luatex.def)             Requested size: 452.9615pt x 165.30257pt.
+[12<./考古学のための統計講座_files/figure-latex/unnamed-chunk-16-1.pd
 f>]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-18-1.pdf, i
-d=455, 705.63625pt x 421.575pt>
+d=422, 568.1225pt x 272.01625pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-18-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-18-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-18-1.pdf used on input line 580.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
-[14<./考古学のための統計講座_files/figure-latex/unnamed-chunk-17-1.pd
+named-chunk-18-1.pdf used on input line 578.
+(luatex.def)             Requested size: 452.98155pt x 216.88693pt.
+[13<./考古学のための統計講座_files/figure-latex/unnamed-chunk-17-1.pd
 f><./考古学のための統計講座_files/figure-latex/unnamed-chunk-18-1.pdf
 >]
-<考古学のための統計講座_files/figure-latex/unnamed-chunk-18-2.pdf, i
-d=508, 705.63625pt x 415.5525pt>
-File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-18-2.pd
-f Graphic file (type pdf)
-
-<use 考古学のための統計講座_files/figure-latex/unnamed-chunk-18-2.pd
-f>
-Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-18-2.pdf used on input line 595.
-(luatex.def)             Requested size: 452.97308pt x 266.75797pt.
-[15<./考古学のための統計講座_files/figure-latex/unnamed-chunk-18-2.pd
-f>]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-19-1.pdf, i
-d=537, 705.63625pt x 421.575pt>
+d=464, 568.1225pt x 349.305pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-19-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-19-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-19-1.pdf used on input line 630.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
+named-chunk-19-1.pdf used on input line 598.
+(luatex.def)             Requested size: 452.98155pt x 278.51163pt.
 
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-20-1.pdf, i
-d=538, 705.63625pt x 421.575pt>
+d=465, 561.09625pt x 349.305pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-20-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-20-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-20-1.pdf used on input line 646.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
-[16<./考古学のための統計講座_files/figure-latex/unnamed-chunk-19-1.pd
+named-chunk-20-1.pdf used on input line 614.
+(luatex.def)             Requested size: 452.9615pt x 281.98676pt.
+[14<./考古学のための統計講座_files/figure-latex/unnamed-chunk-19-1.pd
 f>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 671.
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
-File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mode
-rn Roman (RS)
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 671.
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 671.
+<考古学のための統計講座_files/figure-latex/unnamed-chunk-21-1.pdf, i
+d=488, 561.09625pt x 162.6075pt>
+File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-21-1.pd
+f Graphic file (type pdf)
 
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 671.
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 671.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 671.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 671.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 671.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 671.
-LaTeX Font Info:    Try loading font information for U+msa on input line 671.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 671.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
+<use 考古学のための統計講座_files/figure-latex/unnamed-chunk-21-1.pd
+f>
+Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
+named-chunk-21-1.pdf used on input line 629.
+(luatex.def)             Requested size: 452.9615pt x 131.2697pt.
+[15<./考古学のための統計講座_files/figure-latex/unnamed-chunk-20-1.pd
+f><./考古学のための統計講座_files/figure-latex/unnamed-chunk-21-1.pdf
+>]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-22-1.pdf, i
-d=567, 705.63625pt x 421.575pt>
+d=541, 561.09625pt x 349.305pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-22-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-22-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-22-1.pdf used on input line 687.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
-[17<./考古学のための統計講座_files/figure-latex/unnamed-chunk-20-1.pd
+named-chunk-22-1.pdf used on input line 664.
+(luatex.def)             Requested size: 452.9615pt x 281.98676pt.
+[16<./考古学のための統計講座_files/figure-latex/unnamed-chunk-22-1.pd
 f>]
-LaTeX Font Info:    Font shape `TU/ipaexg.ttf(0)/m/it' will be
-(Font)              scaled to size 8.4874pt on input line 702.
-LaTeX Font Info:    Font shape `JT3/gt/m/it' will be
-(Font)              scaled to size 9.6222pt on input line 702.
-LaTeX Font Info:    Font shape `JY3/gt/m/it' will be
-(Font)              scaled to size 9.6222pt on input line 702.
-
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-23-1.pdf, i
-d=601, 705.63625pt x 421.575pt>
+d=570, 571.13374pt x 349.305pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-23-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-23-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-23-1.pdf used on input line 715.
-(luatex.def)             Requested size: 452.97308pt x 270.62402pt.
-[18<./考古学のための統計講座_files/figure-latex/unnamed-chunk-22-1.pd
-f>] [19<./考古学のための統計講座_files/figure-latex/unnamed-chunk-23-
-1.pdf>]
-<考古学のための統計講座_files/figure-latex/unnamed-chunk-24-1.pdf, i
-d=658, 712.6625pt x 709.65125pt>
-File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-24-1.pd
-f Graphic file (type pdf)
+named-chunk-23-1.pdf used on input line 680.
+(luatex.def)             Requested size: 452.96854pt x 277.03523pt.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 704.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mode
+rn Roman (RS)
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 704.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 704.
 
-<use 考古学のための統計講座_files/figure-latex/unnamed-chunk-24-1.pd
-f>
-Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-24-1.pdf used on input line 756.
-(luatex.def)             Requested size: 452.97064pt x 451.05667pt.
-[20<./考古学のための統計講座_files/figure-latex/unnamed-chunk-24-1.pd
-f>]
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 704.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 704.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 704.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 704.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 704.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 704.
+LaTeX Font Info:    Try loading font information for U+msa on input line 704.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 704.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [17<./考古学のための統計講座_files/figure-latex/unnamed-chunk-23-1.
+pdf>]
 <考古学のための統計講座_files/figure-latex/unnamed-chunk-25-1.pdf, i
-d=687, 712.6625pt x 566.115pt>
+d=597, 712.6625pt x 709.65125pt>
 File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-25-1.pd
 f Graphic file (type pdf)
 
 <use 考古学のための統計講座_files/figure-latex/unnamed-chunk-25-1.pd
 f>
 Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
-named-chunk-25-1.pdf used on input line 776.
-(luatex.def)             Requested size: 452.97064pt x 359.82455pt.
-<fig/ccby.png, id=688, 97.0827pt x 33.9669pt>
+named-chunk-25-1.pdf used on input line 745.
+(luatex.def)             Requested size: 452.97064pt x 451.05667pt.
+[18] [19<./考古学のための統計講座_files/figure-latex/unnamed-chunk-25
+-1.pdf>]
+<考古学のための統計講座_files/figure-latex/unnamed-chunk-26-1.pdf, i
+d=630, 568.1225pt x 349.305pt>
+File: 考古学のための統計講座_files/figure-latex/unnamed-chunk-26-1.pd
+f Graphic file (type pdf)
+
+<use 考古学のための統計講座_files/figure-latex/unnamed-chunk-26-1.pd
+f>
+Package luatex.def Info: 考古学のための統計講座_files/figure-latex/un
+named-chunk-26-1.pdf used on input line 766.
+(luatex.def)             Requested size: 452.98155pt x 278.51163pt.
+<fig/ccby.png, id=631, 97.0827pt x 33.9669pt>
 File: fig/ccby.png Graphic file (type png)
 <use fig/ccby.png>
-Package luatex.def Info: fig/ccby.png used on input line 780.
+Package luatex.def Info: fig/ccby.png used on input line 807.
 (luatex.def)             Requested size: 97.0854pt x 33.96783pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 786.
-[21<./考古学のための統計講座_files/figure-latex/unnamed-chunk-25-1.pd
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 813.
+[20<./考古学のための統計講座_files/figure-latex/unnamed-chunk-26-1.pd
 f><./fig/ccby.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 786.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 813.
 (./考古学のための統計講座.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 786.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 786.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 813.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 813.
 Package rerunfilecheck Info: File `考古学のための統計講座.out' has no
 t changed.
-(rerunfilecheck)             Checksum: 280FE0EE95B135BEBCB6D4ABEBA78D8D;4369.
+(rerunfilecheck)             Checksum: 516F063B6F2FB8449FD227880E5ACC60;4181.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 23585 strings out of 494577
- 156263,662416 words of node,token memory allocated
- 44196 words of node memory still in use:
-   11 hlist, 2 vlist, 6 rule, 1868 glue, 240 kern, 1 penalty, 1 glyph, 13976 att
-ribute, 51 glue_spec, 706 attribute_list, 1 write, 15 user_defined nodes
-   avail lists: 1:3,2:35409,3:293,4:446,5:45,6:1796,7:969,8:714,9:734,10:18,11:2
+ 23565 strings out of 494577
+ 156259,662416 words of node,token memory allocated
+ 45161 words of node memory still in use:
+   11 hlist, 2 vlist, 6 rule, 1925 glue, 235 kern, 2 penalty, 1 glyph, 14256 att
+ribute, 51 glue_spec, 720 attribute_list, 1 write, 15 user_defined nodes
+   avail lists: 1:6,2:33763,3:389,4:505,5:53,6:2006,7:975,8:730,9:684,10:18,11:2
 2
- 26748 multiletter control sequences out of 65536+600000
- 60 fonts using 48632671 bytes
- 49i,6n,117p,994b,440s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 26742 multiletter control sequences out of 65536+600000
+ 60 fonts using 48629863 bytes
+ 49i,6n,117p,994b,450s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share
 /texlive/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf></usr/share/texmf/fon
@@ -1678,11 +1658,11 @@ alic.otf></home/ishii/.fonts/ki_kokumin/ipaexfont/ipaexg.ttf></usr/share/texlive
 /texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf></usr/share/texmf/fonts/type1
 /public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on 考古学のための統計講座.pdf (21 pages, 903260 bytes)
+Output written on 考古学のための統計講座.pdf (20 pages, 873429 bytes)
 .
 
-PDF statistics: 771 PDF objects out of 1000 (max. 8388607)
- 571 compressed objects within 6 object streams
+PDF statistics: 715 PDF objects out of 1000 (max. 8388607)
+ 532 compressed objects within 6 object streams
  61 named destinations out of 1000 (max. 131072)
- 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
