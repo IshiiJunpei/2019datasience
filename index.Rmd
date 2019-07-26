@@ -3,6 +3,8 @@ title: "考古学のためのデータビジュアライゼーション"
 author: "@ishiijunpei"
 ---
 
+["発表スライド"]( https://ishiijunpei.github.io/2019datasience/. )
+
 <br>
 
 ```{r warning=FALSE,error=FALSE}
@@ -566,22 +568,24 @@ y=10.72x-6.28
 - 連続量どうしの関係は散布図で可視化する
 
 ```{r echo=FALSE,eval=FALSE}
-render("index.Rmd",html_document(toc = TRUE, theme =  "cosmo"))
+# htmlファイル
+render("index.Rmd",html_document(toc = TRUE, theme =  "cosmo"),"document.html")
 
  ("default", "cerulean", "journal", "flatly",
           "darkly", "readable", "spacelab", "united", "cosmo", "lumen",
           "paper", "sandstone", "simplex", or "yeti"
-
-render("index.Rmd",revealjs::revealjs_presentation(theme="solarized",transition="convex"))
-
+# README.mdファイル
+render("index.Rmd",output_format="md_document","README.md")
+# revealjsスライド
+render("index.Rmd",revealjs::revealjs_presentation(theme="solarized",transition="convex"),"index.html")
+# オブション
  theme: Visual theme ("simple", "sky", "beige", "serif", "solarized",
           "blood", "moon", "night", "black", "league" or "white").
 transition: Slide transition ("default", "none", "fade", "slide",
           "convex", "concave" or "zoom")
-
 background_transition: Slide background-transition ("default", "none",
           "fade", "slide", "convex", "concave" or "zoom")
-
+https://github.com/IshiiJunpei/2019datasience.git
 ```
 
 <br>
