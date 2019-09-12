@@ -7,6 +7,7 @@ output:
   md_document
 ---
 
+[当日発表スライド](https://ishiijunpei.github.io/2019datasience/#/)
 
 ```{r warning=FALSE,error=FALSE}
 # パッケージ読み込み

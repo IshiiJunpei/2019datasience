@@ -1,3 +1,5 @@
+[当日発表スライド](https://ishiijunpei.github.io/2019datasience/#/)
+
     # パッケージ読み込み
     library(tidyverse)
     library(ggthemes)
