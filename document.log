@@ -1,7 +1,7 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.7.14)  2 AUG 2019 12:12
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.7.14)  3 SEP 2019 08:23
  restricted system commands enabled.
-**index.tex
-(./index.tex
+**document.tex
+(./document.tex
 LaTeX2e <2018-12-01>
 Lua module: luaotfload-main 2019-05-18 2.97 luaotfload entry point
 Lua module: luaotfload-init 2019-05-18 2.97 luaotfload submodule / initializatio
@@ -1031,8 +1031,12 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layouthoffset=\dimen199
 \Gm@layoutvoffset=\dimen256
 \Gm@dimlist=\toks32
-) (./index.aux)
-\openout1 = index.aux
+) (./document.aux
+
+LaTeX Warning: Label `2' multiply defined.
+
+)
+\openout1 = document.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
 LaTeX Font Info:    ... okay on input line 129.
@@ -1107,10 +1111,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 129.
 LaTeX Info: Redefining \pageref on input line 129.
 LaTeX Info: Redefining \nameref on input line 129.
-(./index.out) (./index.out)
+(./document.out) (./document.out)
 \@outlinefile=\write4
 
-\openout4 = index.out
+\openout4 = document.out
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count309
@@ -1219,277 +1223,198 @@ LaTeX Font Warning: Font shape `JY3/gt/m/it' undefined
 luc)(load cache: /home/ishii/.texlive2019/texmf-var/luatexja/extra_lmmono10-ital
 ic.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/it' will be
-(Font)              scaled to size 9.6222pt on input line 136.
+(Font)              scaled to size 9.6222pt on input line 134.
 LaTeX Font Info:    Font shape `JY3/mc/m/it' will be
-(Font)              scaled to size 9.6222pt on input line 136.
+(Font)              scaled to size 9.6222pt on input line 134.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 137.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 135.
 (load cache: /home/ishii/.texlive2019/texmf-var/luatexja/extra_lmmonolt10-bold.l
 uc)
 LaTeX Font Info:    Font shape `TU/ipaexg.ttf(0)/m/n' will be
-(Font)              scaled to size 12.22183pt on input line 145.
+(Font)              scaled to size 12.22183pt on input line 143.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 145.
+(Font)              scaled to size 13.85594pt on input line 143.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 145.
+(Font)              scaled to size 13.85594pt on input line 143.
 
 LaTeX Font Warning: Font shape `TU/ipaexg.ttf(0)/bx/n' undefined
-(Font)              using `TU/ipaexg.ttf(0)/m/n' instead on input line 145.
+(Font)              using `TU/ipaexg.ttf(0)/m/n' instead on input line 143.
 
 LaTeX Font Info:    Font shape `JT3/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 145.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 145.
+(Font)              scaled to size 13.85594pt on input line 143.
 LaTeX Font Info:    Font shape `JY3/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 145.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 145.
+(Font)              scaled to size 13.85594pt on input line 143.
 LaTeX Font Info:    Font shape `TU/ipaexg.ttf(0)/bx/n' will be
-(Font)              scaled to size 12.22183pt on input line 155.
+(Font)              scaled to size 12.22183pt on input line 153.
+LaTeX Font Info:    Font shape `TU/ipaexg.ttf(0)/bx/n' will be
+(Font)              scaled to size 10.18488pt on input line 181.
+LaTeX Font Info:    Font shape `JT3/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 181.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 181.
+LaTeX Font Info:    Font shape `JY3/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 181.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 181.
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<index_files/figure-latex/unnamed-chunk-3-1.pdf, id=146, 706.64pt x 493.845pt>
-File: index_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-3-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-3-1.pdf  used on
- input line 217.
-(luatex.def)             Requested size: 452.97047pt x 316.56459pt.
-LaTeX Font Info:    Font shape `TU/ipaexg.ttf(0)/bx/n' will be
-(Font)              scaled to size 10.18488pt on input line 224.
-LaTeX Font Info:    Font shape `JT3/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 224.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 224.
-LaTeX Font Info:    Font shape `JY3/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 224.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 224.
-[2<./index_files/figure-latex/unnamed-chunk-3-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-4-1.pdf, id=173, 706.64pt x 416.55624pt>
-
-File: index_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-4-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-4-1.pdf  used on
- input line 242.
-(luatex.def)             Requested size: 452.97047pt x 267.02094pt.
-<index_files/figure-latex/unnamed-chunk-5-1.pdf, id=174, 706.64pt x 277.035pt>
-File: index_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-5-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-5-1.pdf  used on
- input line 257.
-(luatex.def)             Requested size: 452.97047pt x 177.585pt.
-[3<./index_files/figure-latex/unnamed-chunk-4-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-6-1.pdf, id=202, 200.75pt x 350.30875pt>
-
-File: index_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-6-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-6-1.pdf  used on
- input line 272.
-(luatex.def)             Requested size: 200.76173pt x 350.32927pt.
-[4<./index_files/figure-latex/unnamed-chunk-5-1.pdf><./index_files/figure-latex/
-unnamed-chunk-6-1.pdf>] [5]
-<index_files/figure-latex/unnamed-chunk-10-1.pdf, id=259, 712.6625pt x 349.305pt
->
-File: index_files/figure-latex/unnamed-chunk-10-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-10-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-10-1.pdf  used o
-n input line 399.
-(luatex.def)             Requested size: 452.97064pt x 222.0194pt.
-[6]
-<index_files/figure-latex/unnamed-chunk-11-1.pdf, id=265, 712.6625pt x 568.1225p
-t>
-File: index_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-11-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-11-1.pdf  used o
-n input line 423.
-(luatex.def)             Requested size: 452.97064pt x 361.10052pt.
-[7<./index_files/figure-latex/unnamed-chunk-10-1.pdf>]
-Overfull \vbox (1.87874pt too high) detected at line 464
- []
-
-[8<./index_files/figure-latex/unnamed-chunk-11-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-13-1.pdf, id=314, 712.6625pt x 349.305pt
->
-File: index_files/figure-latex/unnamed-chunk-13-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-13-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-13-1.pdf  used o
-n input line 470.
-(luatex.def)             Requested size: 452.97064pt x 222.0194pt.
-[9<./index_files/figure-latex/unnamed-chunk-13-1.pdf>]
-LaTeX Font Info:    Font shape `TU/ipaexg.ttf(0)/bx/n' will be
-(Font)              scaled to size 8.4874pt on input line 519.
-<index_files/figure-latex/unnamed-chunk-15-1.pdf, id=341, 290.08376pt x 184.69pt
->
-File: index_files/figure-latex/unnamed-chunk-15-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-15-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-15-1.pdf  used o
-n input line 531.
-(luatex.def)             Requested size: 290.08304pt x 184.68953pt.
-[10<./index_files/figure-latex/unnamed-chunk-15-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-16-1.pdf, id=357, 705.63625pt x 240.9pt>
-
-File: index_files/figure-latex/unnamed-chunk-16-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-16-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-16-1.pdf  used o
-n input line 578.
-(luatex.def)             Requested size: 452.97308pt x 154.64229pt.
-[11<./index_files/figure-latex/unnamed-chunk-16-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-17-1.pdf, id=379, 705.63625pt x 240.9pt>
-
-File: index_files/figure-latex/unnamed-chunk-17-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-17-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-17-1.pdf  used o
-n input line 598.
-(luatex.def)             Requested size: 452.97308pt x 154.64229pt.
-<index_files/figure-latex/unnamed-chunk-18-1.pdf, id=380, 706.64pt x 240.9pt>
-File: index_files/figure-latex/unnamed-chunk-18-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-18-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-18-1.pdf  used o
-n input line 627.
-(luatex.def)             Requested size: 452.97047pt x 154.42174pt.
-[12<./index_files/figure-latex/unnamed-chunk-17-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-19-1.pdf, id=402, 712.6625pt x 272.01625
+<document_files/figure-latex/unnamed-chunk-4-1.pdf, id=121, 712.6625pt x 349.305
 pt>
-File: index_files/figure-latex/unnamed-chunk-19-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-19-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-19-1.pdf  used o
-n input line 645.
+File: document_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
+<use document_files/figure-latex/unnamed-chunk-4-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-4-1.pdf  used
+ on input line 225.
+(luatex.def)             Requested size: 452.97064pt x 222.0194pt.
+[2<./document_files/figure-latex/unnamed-chunk-4-1.pdf>]
+<document_files/figure-latex/unnamed-chunk-5-1.pdf, id=148, 712.6625pt x 568.122
+5pt>
+File: document_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type pdf)
+<use document_files/figure-latex/unnamed-chunk-5-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-5-1.pdf  used
+ on input line 248.
+(luatex.def)             Requested size: 452.97064pt x 361.10052pt.
+[3<./document_files/figure-latex/unnamed-chunk-5-1.pdf>]
+<document_files/figure-latex/unnamed-chunk-7-1.pdf, id=170, 712.6625pt x 349.305
+pt>
+File: document_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf)
+<use document_files/figure-latex/unnamed-chunk-7-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-7-1.pdf  used
+ on input line 294.
+(luatex.def)             Requested size: 452.97064pt x 222.0194pt.
+[4<./document_files/figure-latex/unnamed-chunk-7-1.pdf>]
+LaTeX Font Info:    Font shape `TU/ipaexg.ttf(0)/bx/n' will be
+(Font)              scaled to size 8.4874pt on input line 347.
+<document_files/figure-latex/unnamed-chunk-9-1.pdf, id=198, 706.64pt x 416.55624
+pt>
+File: document_files/figure-latex/unnamed-chunk-9-1.pdf Graphic file (type pdf)
+<use document_files/figure-latex/unnamed-chunk-9-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-9-1.pdf  used
+ on input line 367.
+(luatex.def)             Requested size: 452.97047pt x 267.02094pt.
+[5]
+<document_files/figure-latex/unnamed-chunk-10-1.pdf, id=204, 706.64pt x 277.035p
+t>
+File: document_files/figure-latex/unnamed-chunk-10-1.pdf Graphic file (type pdf)
+
+<use document_files/figure-latex/unnamed-chunk-10-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-10-1.pdf  use
+d on input line 382.
+(luatex.def)             Requested size: 452.97047pt x 177.585pt.
+[6<./document_files/figure-latex/unnamed-chunk-9-1.pdf><./document_files/figure-
+latex/unnamed-chunk-10-1.pdf>]
+<document_files/figure-latex/unnamed-chunk-11-1.pdf, id=253, 706.64pt x 204.765p
+t>
+File: document_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
+
+<use document_files/figure-latex/unnamed-chunk-11-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-11-1.pdf  use
+d on input line 398.
+(luatex.def)             Requested size: 452.97047pt x 131.25847pt.
+[7<./document_files/figure-latex/unnamed-chunk-11-1.pdf>]
+<document_files/figure-latex/unnamed-chunk-15-1.pdf, id=283, 290.08376pt x 184.6
+9pt>
+File: document_files/figure-latex/unnamed-chunk-15-1.pdf Graphic file (type pdf)
+
+<use document_files/figure-latex/unnamed-chunk-15-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-15-1.pdf  use
+d on input line 501.
+(luatex.def)             Requested size: 290.08304pt x 184.68953pt.
+[8] [9<./document_files/figure-latex/unnamed-chunk-15-1.pdf>]
+<document_files/figure-latex/unnamed-chunk-16-1.pdf, id=305, 705.63625pt x 240.9
+pt>
+File: document_files/figure-latex/unnamed-chunk-16-1.pdf Graphic file (type pdf)
+
+<use document_files/figure-latex/unnamed-chunk-16-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-16-1.pdf  use
+d on input line 551.
+(luatex.def)             Requested size: 452.97308pt x 154.64229pt.
+<document_files/figure-latex/unnamed-chunk-17-1.pdf, id=306, 705.63625pt x 240.9
+pt>
+File: document_files/figure-latex/unnamed-chunk-17-1.pdf Graphic file (type pdf)
+
+<use document_files/figure-latex/unnamed-chunk-17-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-17-1.pdf  use
+d on input line 573.
+(luatex.def)             Requested size: 452.97308pt x 154.64229pt.
+[10<./document_files/figure-latex/unnamed-chunk-16-1.pdf><./document_files/figur
+e-latex/unnamed-chunk-17-1.pdf>]
+<document_files/figure-latex/unnamed-chunk-18-1.pdf, id=344, 706.64pt x 240.9pt>
+
+File: document_files/figure-latex/unnamed-chunk-18-1.pdf Graphic file (type pdf)
+
+<use document_files/figure-latex/unnamed-chunk-18-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-18-1.pdf  use
+d on input line 602.
+(luatex.def)             Requested size: 452.97047pt x 154.42174pt.
+<document_files/figure-latex/unnamed-chunk-19-1.pdf, id=345, 712.6625pt x 272.01
+625pt>
+File: document_files/figure-latex/unnamed-chunk-19-1.pdf Graphic file (type pdf)
+
+<use document_files/figure-latex/unnamed-chunk-19-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-19-1.pdf  use
+d on input line 620.
 (luatex.def)             Requested size: 452.97064pt x 172.89441pt.
-[13<./index_files/figure-latex/unnamed-chunk-18-1.pdf><./index_files/figure-late
-x/unnamed-chunk-19-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-20-1.pdf, id=440, 712.6625pt x 421.575pt
->
-File: index_files/figure-latex/unnamed-chunk-20-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-20-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-20-1.pdf  used o
-n input line 665.
-(luatex.def)             Requested size: 452.97064pt x 267.95445pt.
-<index_files/figure-latex/unnamed-chunk-21-1.pdf, id=441, 706.64pt x 421.575pt>
-File: index_files/figure-latex/unnamed-chunk-21-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-21-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-21-1.pdf  used o
-n input line 681.
-(luatex.def)             Requested size: 452.97047pt x 270.23807pt.
-[14<./index_files/figure-latex/unnamed-chunk-20-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-22-1.pdf, id=463, 706.64pt x 199.74625pt
->
-File: index_files/figure-latex/unnamed-chunk-22-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-22-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-22-1.pdf  used o
-n input line 696.
-(luatex.def)             Requested size: 452.97047pt x 128.04137pt.
-[15<./index_files/figure-latex/unnamed-chunk-21-1.pdf><./index_files/figure-late
-x/unnamed-chunk-22-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-23-1.pdf, id=512, 714.67pt x 421.575pt>
-File: index_files/figure-latex/unnamed-chunk-23-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-23-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-23-1.pdf  used o
-n input line 744.
-(luatex.def)             Requested size: 452.97072pt x 267.20183pt.
-[16<./index_files/figure-latex/unnamed-chunk-23-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-24-1.pdf, id=536, 714.67pt x 421.575pt>
-File: index_files/figure-latex/unnamed-chunk-24-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-24-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-24-1.pdf  used o
-n input line 760.
-(luatex.def)             Requested size: 452.97072pt x 267.20183pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 784.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
-File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mode
-rn Roman (RS)
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 784.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 784.
+[11<./document_files/figure-latex/unnamed-chunk-18-1.pdf>] [12
+warning  (pdf backend): ignoring duplicate destination with the name '2'
+<./document_files/figure-latex/unnamed-chunk-19-1.pdf>]
+<document_files/figure-latex/unnamed-chunk-20-1.pdf, id=388, 712.6625pt x 710.65
+5pt>
+File: document_files/figure-latex/unnamed-chunk-20-1.pdf Graphic file (type pdf)
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 784.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 784.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 784.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 784.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 784.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 784.
-LaTeX Font Info:    Try loading font information for U+msa on input line 784.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 784.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [17<./index_files/figure-latex/unnamed-chunk-24-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-26-1.pdf, id=560, 712.6625pt x 710.655pt
->
-File: index_files/figure-latex/unnamed-chunk-26-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-26-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-26-1.pdf  used o
-n input line 825.
+<use document_files/figure-latex/unnamed-chunk-20-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-20-1.pdf  use
+d on input line 662.
 (luatex.def)             Requested size: 452.97064pt x 451.69466pt.
-[18] [19<./index_files/figure-latex/unnamed-chunk-26-1.pdf>]
-<index_files/figure-latex/unnamed-chunk-27-1.pdf, id=591, 712.6625pt x 421.575pt
->
-File: index_files/figure-latex/unnamed-chunk-27-1.pdf Graphic file (type pdf)
-<use index_files/figure-latex/unnamed-chunk-27-1.pdf>
-Package luatex.def Info: index_files/figure-latex/unnamed-chunk-27-1.pdf  used o
-n input line 846.
+[13<./document_files/figure-latex/unnamed-chunk-20-1.pdf>]
+<document_files/figure-latex/unnamed-chunk-21-1.pdf, id=415, 712.6625pt x 421.57
+5pt>
+File: document_files/figure-latex/unnamed-chunk-21-1.pdf Graphic file (type pdf)
+
+<use document_files/figure-latex/unnamed-chunk-21-1.pdf>
+Package luatex.def Info: document_files/figure-latex/unnamed-chunk-21-1.pdf  use
+d on input line 683.
 (luatex.def)             Requested size: 452.97064pt x 267.95445pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 888.
-[20<./index_files/figure-latex/unnamed-chunk-27-1.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 888.
-(./index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 888.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 888.
-Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: 807AD4A812CFEC0620F1C1FC58747AA5;4022.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 712.
+[14<./document_files/figure-latex/unnamed-chunk-21-1.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 712.
+(./document.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 712.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 712.
+Package rerunfilecheck Info: File `document.out' has not changed.
+(rerunfilecheck)             Checksum: D4A613D445ECDE4AD0703C9C7E7117D1;3670.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 26305 strings out of 494291
- 195323,662416 words of node,token memory allocated
- 27806 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 2 glue, 406 kern, 2 penalty, 1 glyph, 8811 attribu
-te, 1389 glue_spec, 452 attribute_list, 1 write, 14 user_defined nodes
-   avail lists: 1:15,2:42636,3:377,4:558,5:45,6:33,7:3832,8:19,9:1465,10:18,11:2
-4
- 29640 multiletter control sequences out of 65536+600000
- 66 fonts using 41672111 bytes
- 56i,6n,116p,5425b,454s stack positions out of 5000i,500n,10000p,200000b,100000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/tex
-live/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</home/ishii/.fonts/ki_kok
-umin/ipaexfont/ipaexg.ttf></usr/local/texlive/2019/texmf-dist/fonts/opentype/pub
-lic/lm/lmmono10-regular.otf></usr/local/texlive/2019/texmf-dist/fonts/opentype/p
-ublic/lm/lmmonolt10-bold.otf></usr/local/texlive/2019/texmf-dist/fonts/opentype/
-public/lm/lmmono10-italic.otf></home/ishii/.fonts/IPAexfont00301/ipaexg.ttf></ho
-me/ishii/.fonts/ki_kokumin/ipaexfont/ipaexm.ttf></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
-ype1/public/lm/lmr10.pfb>
-Output written on index.pdf (20 pages, 916374 bytes).
+ 26032 strings out of 494291
+ 156255,662416 words of node,token memory allocated
+ 22444 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 2 glue, 323 kern, 3 penalty, 1 glyph, 7111 attribu
+te, 1113 glue_spec, 367 attribute_list, 1 write, 14 user_defined nodes
+   avail lists: 1:17,2:41327,3:431,4:600,5:57,6:42,7:3417,8:14,9:1642,10:18,11:2
+2
+ 29508 multiletter control sequences out of 65536+600000
+ 48 fonts using 36604007 bytes
+ 56i,6n,116p,5428b,446s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/ishii/.fonts/ki_kokumin/ipaexfont/ipaexg.ttf></usr/local/texlive/2019/tex
+mf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2019/t
+exmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/local/texlive/2019/
+texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf></home/ishii/.fonts/IPAe
+xfont00301/ipaexg.ttf></home/ishii/.fonts/ki_kokumin/ipaexfont/ipaexm.ttf>
+Output written on document.pdf (14 pages, 818753 bytes).
 
-PDF statistics: 668 PDF objects out of 1000 (max. 8388607)
- 491 compressed objects within 5 object streams
- 69 named destinations out of 1000 (max. 131072)
- 257 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 482 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 53 named destinations out of 1000 (max. 131072)
+ 209 words of extra memory for PDF output out of 10000 (max. 100000000)
 
