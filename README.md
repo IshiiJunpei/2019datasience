@@ -161,11 +161,10 @@
 
 私たちには予備知識として、刀剣には刀子のようなマキリ状の小さなもの、刃渡り30cm前後の短刀、刃渡り60cmを超えるような太刀があることを知っていますが、そうした予備知識をいったん忘れてデータを観察します。
 
-    p<-iron%>%
+    iron%>%
         ggplot(aes(x=刀身長))+
         geom_histogram()+
         theme_minimal()
-    print(p)
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
@@ -181,11 +180,10 @@
 下の図は、刀身長と刀身元幅の散布図です。
 この図が間違いとは言いませんが、ヒストグラムと比較して、分布の形がわかりやすいと言えるでしょうか？
 
-    p<-iron%>%
+    iron%>%
         ggplot(aes(x=刀身長,y=刀身元幅))+
         geom_point()+
         theme_minimal()
-    print(p)
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
@@ -220,13 +218,12 @@
     nom <- x%>%dnorm(mean=s_iron$mean, sd=s_iron$sd)
     nom2<-data.frame(X=x,Y=nom)
     #正規曲線付きヒストグラム
-    p<-iron%>%
+    iron%>%
         ggplot(aes(x=刀身長,y=..density..))+
             geom_histogram()+
             geom_line(data=nom2,aes(x=x,y=Y))+
             scale_colour_ptol()+
             theme_minimal()
-    print(p)
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
@@ -317,13 +314,12 @@
 ヒストグラム
 ------------
 
-    p<-pot%>%
+    pot%>%
         ggplot(aes(x=口径,fill=分類))+
             geom_histogram()+
             scale_fill_ptol()+
             facet_wrap(~分類,ncol=1,scales="free_y")+
             theme_minimal()
-    print(p)
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
@@ -334,12 +330,11 @@
 密度図
 ------
 
-    p<-pot%>%
-        ggplot(aes(x=口径,fill=分類,alpha=0.7))+
-            geom_density()+
+    pot%>%
+        ggplot(aes(x=口径,fill=分類))+
+            geom_density(alpha=0.7)+
             scale_fill_ptol()+
             theme_minimal()
-    print(p)
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-10-1.png)
 
@@ -348,13 +343,17 @@
 箱ひげ図
 --------
 
-    p<-pot%>%
-        ggplot(aes(x=分類,y=口径,fill=分類))+
-            geom_boxplot()+
-            scale_fill_ptol()+
+    library(ggforce)
+    pot%>%
+        ggplot(aes(x=分類,y=口径,fill=分類))+ 
+            geom_boxplot(alpha = 0.2)+      #不透明度を0.2
+            geom_sina(aes(colour = 分類),     #geom_sina()関数でaes()の引数にcolour=分類を指定
+                  alpha = 0.4, 
+                  size = 3) +
+            scale_fill_viridis_d() +        #viridis_d(は連続量、離散量ならviridis_c()を指定する
+            scale_colour_viridis_d() +
             coord_flip()+
             theme_minimal()
-    print(p)
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-11-1.png)
 
@@ -414,14 +413,17 @@ p値が2.2e-16と極めて小さい値をとることから、分類によって
 次にどの分類同士で差があるのかを調べるために「多重比較」という統計手法を用います。
 いずれの分類でも有意な差を確認できます。
 
-    # aov関数の結果をTukeyHSD関数に渡す
-    tkh<-aov(口径~分類,data=pot)%>%TukeyHSD()
-    tkh$分類%>%kable(format="markdown")
+    tkh <- 
+        aov(口径 ~ 分類, data = pot) %>% 
+        TukeyHSD() %>% 
+        .$分類 %>%    #TukeyHSD関数の結果から$分類を選択 
+        as_tibble() %>%     #tibble_df形式に変換
+        mutate_if(is.numeric, round,3)      #mutate_if()でnumericクラスのカラムにround関数を適用する。
+    tkh%>%kable(format="markdown")
 
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;"></th>
 <th style="text-align: right;">diff</th>
 <th style="text-align: right;">lwr</th>
 <th style="text-align: right;">upr</th>
@@ -430,25 +432,22 @@ p値が2.2e-16と極めて小さい値をとることから、分類によって
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">B型-A型</td>
 <td style="text-align: right;">-6.58</td>
-<td style="text-align: right;">-8.1885528</td>
-<td style="text-align: right;">-4.971447</td>
-<td style="text-align: right;">0.0000000</td>
+<td style="text-align: right;">-8.189</td>
+<td style="text-align: right;">-4.971</td>
+<td style="text-align: right;">0.000</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">C型-A型</td>
 <td style="text-align: right;">-4.54</td>
-<td style="text-align: right;">-6.1485528</td>
-<td style="text-align: right;">-2.931447</td>
-<td style="text-align: right;">0.0000000</td>
+<td style="text-align: right;">-6.149</td>
+<td style="text-align: right;">-2.931</td>
+<td style="text-align: right;">0.000</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">C型-B型</td>
 <td style="text-align: right;">2.04</td>
-<td style="text-align: right;">0.4314472</td>
-<td style="text-align: right;">3.648553</td>
-<td style="text-align: right;">0.0087802</td>
+<td style="text-align: right;">0.431</td>
+<td style="text-align: right;">3.649</td>
+<td style="text-align: right;">0.009</td>
 </tr>
 </tbody>
 </table>
@@ -555,13 +554,12 @@ Note:
 構成比を比較するために使われるのが構成比棒グラフです。長さや位置によって視覚化されるため、正確な読み取りが可能です。
 構成比棒グラフは比率を比較するための優れたグラフ表現です。
 
-    p<-toj%>%
+    toj%>%
         ggplot(aes(x=遺跡名,y=点数,fill=器種))+
             geom_bar(stat="identity",position="fill")+
             coord_flip()+
             scale_fill_ptol()+
             theme_minimal()
-    print(p)
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-16-1.png)
 
@@ -574,13 +572,12 @@ Note:
 
 オフセット印刷の場合、グレスケール（網掛け）は20〜30%スパンが識別できる限界です。したがって、構成比棒グラフでは4群〜5群が表現の限界となります。
 
-    p<-toj%>%
+    toj%>%
         ggplot(aes(x=遺跡名,y=点数,fill=器種))+
             geom_bar(stat="identity",position="fill")+
             coord_flip()+
             scale_fill_brewer(palette="Greys")+
             theme_minimal()
-    print(p)
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-17-1.png)
 
@@ -591,33 +588,30 @@ Note:
 
     # 食膳具、貯蔵具、その他に区分
     toj2<-toj%>%
-        mutate(大別器種 = case_when(
-            grepl("碗",器種)|grepl("皿",器種)|grepl("その他の食膳具",器種)  == TRUE ~ "食膳具",
-            grepl("壺･甕･瓶",器種) == TRUE ~ "貯蔵具",
-            grepl("灯明皿・油注",器種)|grepl("その他",器種)|grepl("すり鉢",器種)|
-                grepl("鍋",器種)|grepl("土瓶",器種) == TRUE ~ "その他",
-            ))
-    # 3区分の構成比棒グラフ
-    p<-toj2%>%
-        ggplot(aes(x=遺跡名,y=点数,fill=大別器種))+
-            geom_bar(stat="identity",position="fill")+
-            coord_flip()+
-            scale_fill_brewer(palette="Greys")+
-            theme_minimal()
-    print(p)
+        mutate(
+            大別器種 = case_when(
+                str_detect(器種,"碗|皿|その他食膳具") ~ "食膳具",
+                str_detect(器種,"壺･甕･瓶") ~ "貯蔵具",
+                str_detect(器種,"灯明皿・油注|その他|すり鉢|鍋|土瓶") ~ "その他",
+            )
+        )
 
-![](README_files/figure-markdown_strict/unnamed-chunk-18-1.png)
+3区分の構成比棒グラフ
+=====================
+
+toj2%&gt;% ggplot(aes(x=遺跡名,y=点数,fill=大別器種))+
+geom\_bar(stat=“identity”,position=“fill”)+ coord\_flip()+
+scale\_fill\_brewer(palette=“Greys”)+ theme\_minimal() \`\`\`
 
 ### 解決法2　ファセットされた棒グラフを使う
 
 どうしてもカテゴリー数を減らしたくない場合は、群変数を器種にとって遺跡ごとにファセットします。花粉分析などの分析結果でよく見る形のグラフです。よほどカテゴリーが多くない限り、表現として成立していますし、オフセット印刷原稿としても対応可能です。
 
-    p<-toj%>%
+    toj%>%
         ggplot(aes(x=器種,y=点数))+
         geom_bar(stat="identity")+
         coord_flip()+facet_wrap(~遺跡名,scales="free")+
         theme_minimal()
-    print(p)
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-19-1.png)
 
@@ -650,14 +644,12 @@ Note:
 なお、散布図を描く場合の約束として、因果関係の「果」にあたる変量をy軸に、「因」にあたる変量をx軸に割り当てます。
 y軸に割り当てられた「果」にあたる変量を**従属変数**、x軸に割り当てられた「因」にあたる変量を**独立変数**と呼びます。
 
-GGallyパッケージを利用して散布図行列を描画します。
+研究集会ではGGallyパッケージを利用して散布図行列を描画しましたが、PerformanceAnalyticsパッケージを利用して有意性の評価を示しています。
 
-    # GGallyパッケージ読み込み
-    library(GGally)
-    #
-    p<-iron%>%select(全長,刀身長,茎長,刀身先幅,刀身元幅,刀身元厚,茎先幅)%>%
-        ggpairs(diag=list(continuous="barDiag"))
-    print(p)
+    library(PerformanceAnalytics)
+    iron %>%
+        select(全長, 刀身長, 茎長, 刀身先幅, 刀身元幅, 刀身元厚, 茎先幅) %>%
+            chart.Correlation(histogram = TRUE, pch = 19)
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-20-1.png)
 
@@ -675,9 +667,6 @@ GGallyパッケージを利用して散布図行列を描画します。
             geom_point()+
             geom_smooth(method="lm")+
             theme_minimal()
-    print(p)
-
-![](README_files/figure-markdown_strict/unnamed-chunk-21-1.png)
 
 なお、刀身元幅を独立変数とする刀身長の予測式は次のとおりです。
 
@@ -713,6 +702,31 @@ GGallyパッケージを利用して散布図行列を描画します。
 </table>
 
 y=10.72x-6.28
+
+    library(ggpmisc)
+    iron %>%
+        ggplot(aes(x=刀身元幅,y=刀身長))+
+            geom_point()+
+            geom_smooth(method="lm")+
+            theme_minimal() +
+            stat_poly_eq(formula = y ~ x,
+                eq.with.lhs = "italic(hat(y))~`=`~",
+                aes(label = paste(stat(eq.label), 
+                    stat(rr.label), 
+                    sep = "~~~")
+                ), parse = TRUE
+            ) +
+            stat_fit_glance(label.y = 0.9,
+                method = "lm",
+                method.args = list(formula = y ~ x),
+                aes(label = sprintf(
+                    '~~italic(P)~"="~~%.25f',
+                    stat(p.value)
+                    )
+                ),parse = TRUE
+            )
+
+![](README_files/figure-markdown_strict/unnamed-chunk-23-1.png)
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="fig/ccby.png" width="100" /></a><br />この
 記事 は
