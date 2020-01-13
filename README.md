@@ -596,12 +596,15 @@ Note:
             )
         )
 
-3区分の構成比棒グラフ
-=====================
+    # 3区分の構成比棒グラフ
+    toj2%>%
+        ggplot(aes(x=遺跡名,y=点数,fill=大別器種))+
+            geom_bar(stat="identity",position="fill")+
+            coord_flip()+
+            scale_fill_brewer(palette="Greys")+
+            theme_minimal()
 
-toj2%&gt;% ggplot(aes(x=遺跡名,y=点数,fill=大別器種))+
-geom\_bar(stat=“identity”,position=“fill”)+ coord\_flip()+
-scale\_fill\_brewer(palette=“Greys”)+ theme\_minimal() \`\`\`
+![](README_files/figure-markdown_strict/unnamed-chunk-18-1.png)
 
 ### 解決法2　ファセットされた棒グラフを使う
 
@@ -704,6 +707,9 @@ y軸に割り当てられた「果」にあたる変量を**従属変数**、x�
 y=10.72x-6.28
 
     library(ggpmisc)
+
+    ## For news about 'ggpmisc', please, see https://www.r4photobiology.info/
+
     iron %>%
         ggplot(aes(x=刀身元幅,y=刀身長))+
             geom_point()+
